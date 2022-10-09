@@ -1,0 +1,1093 @@
+* {padding: 0; margin: 0}
+html {
+	font-family: "Rubik",sans-serif;
+
+}
+
+nav {
+	width: 100%;
+	z-index: 1; 
+	background-color: white;
+	display: flex;
+	position: fixed;
+	height: 90px;
+	box-shadow: 5px 5px 5px lightgrey;
+}
+
+nav .logo img {height: 90px; padding-right: 17px; margin-left: 15px; border-right: solid darkgreen 2px}
+
+.arrowdown1 {
+  border: solid #176152;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  position: absolute;
+  margin: 3px 0 0 -15px;
+}
+
+.arrowdown2 {
+  border: solid #176152;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  position: absolute;
+  margin: 3px 0 0 -15px;
+}
+
+nav ul { margin-left: 20px; margin-top: 20px; text-align: left;}
+nav ul li { float: left; list-style: none; background: white; padding: 15px 15px;}
+nav ul li a {margin-right: 25px; text-decoration: none; }
+nav ul li ul{display: none; margin: 15px 0 0 -15px}
+nav ul li img {width: 10px}
+nav ul li:hover  > ul {display: block;}
+nav ul li ul {position: absolute;}
+nav ul li ul li {float: none; position: relative;}
+nav a {color: #176152;}
+nav a:hover {color: #E4FF00}
+nav ul li a:hover .arrowdown1 {border-color: yellow}
+nav ul li a:hover .arrowdown2 {border-color: yellow}
+nav ul li ul li ul {left: 100%; top: 0%; width: 250px;}
+
+.navkanan {
+	width: 400px;
+	position: absolute;
+	right: 5%;
+}
+.telppng img {
+	width: 20px; 
+	margin-top:35px; 
+	float: left;
+}
+
+body {
+	background-color: whitesmoke;
+	position: relative;
+	margin: auto;
+}
+
+nav p {
+	color: #176152; 
+	margin-top: 35px; 
+	margin-left: 3px;
+	margin-right: 30px;
+	float: left;
+}
+
+.contacts .fa-instagram {
+	float: left;
+	margin-top: 35px; 
+	margin-left: 20px;
+	color: #176152;
+}
+
+.contacts .fa-instagram:hover {
+	color: yellow;
+}
+
+.contacts .fa-linkedin {
+	float: left;
+	margin-top: 35px; 
+	margin-left: 20px;
+	color: #176152;
+}
+
+.contacts .fa-linkedin:hover {
+	color: yellow;
+}
+
+.contacts .fa-facebook {
+	float: left;
+	margin-top: 35px; 
+	margin-left: 20px;
+	color: #176152;
+}
+
+.contacts .fa-facebook:hover {
+	color: yellow;
+}
+
+.contacts .fa-google-plus-g {
+	float: left;
+	margin-top: 35px; 
+	margin-left: 20px;
+	color: #176152;
+}
+
+.contacts .fa-google-plus-g:hover {
+	color: yellow;
+}
+.search {
+	color:#176152 ;
+	position: absolute;
+	left: 94%;
+	background-color: yellow;
+	padding: 36px;
+
+}
+
+.slidergal {
+	background: lightgrey;
+	height: 720px;
+	position: relative;
+	margin: auto;
+}
+
+.slidergal img {
+	width: 100%;
+	height: 720px;
+	object-fit: cover;
+}
+
+.slidergal .judul {
+	width: 550px;
+	height: 300px;
+	color: white;
+	margin: auto;
+	margin-top: -480px;
+}
+
+.slidergal button:hover {
+	background-color: white;
+}
+.judul p {
+	text-align: center;
+	float: left;
+	margin-left: 85px;
+	margin-top: -25px;
+	
+}
+
+.judul h1 {
+	font-family: 'Brush Script MT', cursive; font-weight: normal; cursor: default;
+	font-size: 120pt;
+}
+
+.judul button {
+	padding: 10px 25px;
+	background-color: yellow;
+	border-radius: 5px;
+	border: 0.5px solid yellow;
+	color: #176152;
+	margin-left: 170px;
+	margin-top: 20px;
+	font-weight: 700;
+	height: 50px;
+	transition: .3s;
+}
+
+.whereto {
+	background-color: #176152;
+	padding: 50px;
+	text-align: center;	
+}
+
+.whereto label {
+	color: white;
+	margin-right: 20px;
+	font-size: 25pt;
+}
+
+.whereto input {
+	padding: 10px;
+	background-color: #176152;
+	border-radius: 5px;
+	border: 0.5px solid lightgrey;
+	color: white;
+	font-family: sans-serif;
+}
+
+::placeholder {
+	color: white;
+}
+
+.whereto select {
+	padding: 9px;
+	background-color: #176152;
+	border-radius: 5px;
+	border: 0.5px solid lightgrey;
+	color: white;
+	height: 39px;
+}
+
+.whereto button {
+	padding: 10px 25px;
+	background-color: yellow;
+	border-radius: 5px;
+	border: 0.5px solid yellow;
+	color: #176152;
+	margin-left: 3px;
+	font-weight: bold;
+	transition: .3s;
+}
+
+.whereto button:hover {
+	background-color: white;
+}
+
+.popdes {
+	margin-top: 100px;
+	text-align: center;
+	position: relative;
+}
+
+.popdes .popdestitle h3 {
+	margin-bottom: 10px;
+	font-weight: 400;
+	font-size: 38px;
+}
+
+.popdes .popdestitle p {
+	color: grey;
+	margin-bottom: 60px;
+	width: 500px;
+	margin: auto;
+	margin-bottom: 40px;
+	font-size: 16px;
+	line-height: 28px;
+}
+
+.pop1 {
+	margin: auto;
+	position: relative;
+	height: 300px;
+	width: 1300px;
+}
+
+.pop2 {
+	margin: auto;
+	position: relative;
+	width: 1300px;
+	height: 300px;
+}
+
+.popfoto1 {
+	float: left;
+	margin-left: 70px;
+	position: relative;
+}
+
+.popfoto2 {
+	float: left;
+	margin-left: 35px;
+	position: relative;
+}
+
+.popfoto3 {
+	float: left;
+	margin-left: 35px;
+	position: relative;
+}
+
+.popfoto4 {
+	float: left;
+	margin-left: 70px;
+	position: relative;
+}
+
+.popfoto5 {
+	float: left;
+	margin-left: 35px;
+	position: relative;
+}
+
+.popfoto6 {
+	float: left;
+	margin-left: 35px;
+	position: relative;
+}
+
+.popgall img{
+	filter: brightness(70%);
+}
+
+.italy .judul {
+	float: left;
+	color: white;
+	font-weight: medium;
+	font-size: 18pt;
+}
+
+.italy .nomor {
+	float: left;
+	margin-left: 10px;
+	padding: 8px;
+	background-color: yellow;
+	border-radius: 15px;
+	color:#176152;
+	font-size: 10pt;
+}
+
+.italy {
+	position: absolute;
+	left: 8%;
+	bottom: 18%;
+
+}
+
+.popfoto1:hover .judul {
+	color: yellow;
+	transition: 0.3s;
+}
+
+.popfoto1:hover .nomor {
+	color: yellow;
+	background-color:#176152;
+	transition: 0.3s;
+}
+
+.popfoto2:hover .judul {
+	color: yellow;
+	transition: 0.3s;
+}
+
+.popfoto2:hover .nomor {
+	color: yellow;
+	background-color:#176152;
+	transition: 0.3s;
+}
+
+.popfoto3:hover .judul {
+	color: yellow;
+	transition: 0.3s;
+}
+
+.popfoto3:hover .nomor {
+	color: yellow;
+	background-color:#176152;
+	transition: 0.3s;
+}
+
+.popfoto4:hover .judul {
+	color: yellow;
+	transition: 0.3s;
+}
+
+.popfoto4:hover .nomor {
+	color: yellow;
+	background-color:#176152;
+	transition: 0.3s;
+}
+
+.popfoto5:hover .judul {
+	color: yellow;
+	transition: 0.3s;
+}
+
+.popfoto5:hover .nomor {
+	color: yellow;
+	background-color:#176152;
+	transition: 0.3s;
+}
+
+.popfoto6:hover .judul {
+	color: yellow;
+	transition: 0.3s;
+}
+
+.popfoto6:hover .nomor {
+	color: yellow;
+	background-color:#176152;
+	transition: 0.3s;
+}
+.popfoto1:hover, .popfoto2:hover, .popfoto3:hover, .popfoto4:hover, .popfoto5:hover, .popfoto6:hover {
+	margin-top: -10px;
+	transition: 0.3s;
+}
+
+.nepal .judul {
+	float: left;
+	color: white;
+	font-weight: medium;
+	font-size: 18pt;
+}
+
+.nepal .nomor {
+	float: left;
+	margin-left: 10px;
+	padding: 8px;
+	background-color: yellow;
+	border-radius: 15px;
+	color:#176152;
+	font-size: 10pt;
+}
+
+.nepal {
+	position: absolute;
+	left: 8%;
+	bottom: 11%;
+}
+
+.brazil .judul {
+	float: left;
+	color: white;
+	font-weight: medium;
+	font-size: 18pt;
+}
+
+.brazil .nomor {
+	float: left;
+	margin-left: 10px;
+	padding: 8px;
+	background-color: yellow;
+	border-radius: 15px;
+	color:#176152;
+	font-size: 10pt;
+}
+
+.brazil {
+	position: absolute;
+	left: 8%;
+	bottom: 11%;
+}
+
+.maldives .judul {
+	float: left;
+	color: white;
+	font-weight: medium;
+	font-size: 18pt;
+}
+
+.maldives .nomor {
+	float: left;
+	margin-left: 10px;
+	padding: 8px;
+	background-color: yellow;
+	border-radius: 15px;
+	color:#176152;
+	font-size: 10pt;
+}
+
+.maldives {
+	position: absolute;
+	left: 8%;
+	bottom: 13%;
+}
+
+.america .judul {
+	float: left;
+	color: white;
+	font-weight: medium;
+	font-size: 18pt;
+}
+
+.america .nomor {
+	float: left;
+	margin-left: 10px;
+	padding: 8px;
+	background-color: yellow;
+	border-radius: 15px;
+	color:#176152;
+	font-size: 10pt;
+}
+
+.america {
+	position: absolute;
+	left: 8%;
+	bottom: 13%;
+}
+
+.indonesia .judul {
+	float: left;
+	color: white;
+	font-weight: medium;
+	font-size: 18pt;
+}
+
+.indonesia .nomor {
+	float: left;
+	margin-left: 10px;
+	padding: 8px;
+	background-color: yellow;
+	border-radius: 15px;
+	color:#176152;
+	font-size: 10pt;
+}
+
+.indonesia {
+	position: absolute;
+	left: 8%;
+	bottom: 13%;
+}
+
+
+.newsletter {
+	margin-top: 100px;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/paragliding.jpg');
+	padding: 70px;
+	color: white;
+	background-repeat: no-repeat;
+	background-size: 100% 300%;
+	position: relative;
+	
+}
+
+.newscon {
+	width: 1100px;
+	height: 90px;
+	margin: auto;
+}
+
+.newsletter background-image {
+	filter: brightness(30%);
+}
+
+.newsletter button:hover {
+	background-color:white;
+}
+
+.newstxt {
+	text-align: left;
+	float: left;
+	margin-left: 160px;
+}
+
+.newstxt h4 {
+	font-size: 24px;
+	font-weight: 400;
+}
+
+
+.newstxt p {
+	width: 350px;
+	color: lightgrey;
+	margin-top: 15px;
+}
+
+
+.newsletter input {
+	float: left;
+	margin-left: 50px;
+	margin-top: 25px;
+	height: 50px;
+	width: 330px;
+	border-radius: 5px;
+	border: none;
+}
+
+.newsletter button {
+	margin-top: 25px;
+	float: left;
+	margin-left: 15px;
+	background-color: yellow;
+	border-radius: 5px;
+	border: none;
+	color:#176152;
+	font-weight: bold;
+	padding: 18px 41px;
+	transition: .3s;
+}
+
+.popplaces {
+	margin-top: 100px;
+}
+
+.popplaces .poptxt h3 {
+	margin-bottom: 15px;
+	position: relative	;
+	font-size: 38px;
+    font-weight: 400;
+}
+
+.poptxt p {
+	width: 500px;
+	text-align: center;
+	color: grey;
+	margin: auto;
+	margin-bottom: 50px;
+	line-height: 28px;
+}
+
+.placegall {
+	margin: auto;
+	position: relative;
+	height: 900px;
+
+}
+
+.placegall img {
+	border-radius: 10px;
+}
+
+.place1 {
+	margin: auto;
+	position: relative;
+	height: 380px;
+	width: 1300px;
+}
+
+.place2 {
+	margin: auto;
+	position: relative;
+	width: 1300px;
+	height: 350px;
+}
+
+.pricefoto {
+	position: relative;
+
+}
+
+.pricefoto h3 {
+	font-weight: normal;
+	
+}
+
+.pricefoto a {
+	text-decoration: none;
+	position: absolute;
+	left: 7%;
+	top: 10%;
+	color:#176152;
+	padding: 7px 18px 4px 18px;
+	background-color: yellow;
+	border-radius: 30px;
+	font-weight: normal;
+
+}
+
+.placefoto1 {
+	float: left;
+	margin-left: 50px;
+	height: 330px;
+	background-color:white;
+}
+
+.placefoto1:hover .judul {
+	color: yellow;
+}
+
+.placefoto1:hover .pricefoto a {
+	color: yellow;
+	background-color: #176152;
+}
+
+
+.placegall .judul {
+	text-align: left;
+	font-weight: 400;
+	font-size: 19pt;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+
+.placegall .review {
+	float: left;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+
+.fa-star {
+	float: left;
+	color: orange;
+}
+
+.review p {
+	float: left;
+	margin-left: 10px;
+}
+
+.fa-clock-o {
+	float: left;
+	margin-left: 50px;
+}
+.placegall .country {
+	text-align: left;
+	margin-top: 5px;
+	margin-left: 15px;
+	color: grey;
+}
+
+.tempatfoto {
+	position: relative;
+}
+
+.placefoto2 {
+	float: left;
+	margin: auto;
+	margin-left: 25px;
+}
+
+.placefoto3 {
+	float: left;
+	margin: auto;
+	margin-left: 25px;
+}
+
+.placefoto4 {
+	float: left;
+	margin-left: 87px;
+}
+
+.placefoto5 {
+	float: left;
+	margin: auto;
+	margin-left: 25px;
+}
+
+.placefoto6 {
+	float: left;
+	margin: auto;
+	margin-left: 25px;
+}
+
+.bplaces {
+	padding: 15px 40px;
+	background-color:#176152;
+	color: white;
+	font-size: 15pt;
+	font-weight: 600;
+	border: none;
+	border-radius: 7px;
+	margin-top: 30px;
+	transition: .3s;
+}
+
+.bplaces:hover {
+	background-color: yellow;
+	color: #176152;
+}
+
+.video {
+	width: 100%;
+	height: 630px;
+	position: relative;
+}
+
+.video img {
+	width: 100%;
+	height: 630px;
+	object-fit: cover;
+	position: relative;
+}
+
+.tampungenjoy {
+	position: absolute;
+	top: 30%;
+	left: 10%;
+	font-size: 40pt;
+	font-family: 'Brush Script MT', cursive; font-weight: normal; cursor: default;
+	width: 1200px;
+	color: white;
+}
+
+.tampungenjoy img {
+	width: 100px;
+	height: 100px;
+	margin-top: 10px;
+	margin: auto;
+}
+
+.travelvariation {
+	width: 1100px;
+	height: 170px;
+	margin: auto;
+	margin-top: 100px;
+	margin-bottom: 120px;
+}
+
+.poin1 {
+	float: left;
+	margin-right: 80px;
+	margin-left: 30px;
+}
+
+.poin2 {
+	float: left;
+	margin-right: 80px;
+}
+
+.poin3 {
+	float: left;
+}
+
+.travelvariation p {
+	width: 300px;
+	margin: auto;
+	margin-top: 10px;
+	color: grey;
+}
+
+.travelvariation h3 {
+	margin-top: 30px;
+	font-weight:400;
+}
+
+.testimoni {
+	margin: auto;
+	margin-top: 50px;
+	padding: 100px 0 118px 0;
+	background-color:#f7fafd
+}
+
+.containtesti h3 {
+	font-weight:normal;
+}
+.containtesti img{
+	width: 150px;
+	margin-bottom: 30px;
+	clip-path: circle(40%)
+}
+.testimoni h3 {
+	width: 800px;
+	margin: auto;
+	margin-bottom: 20px ;
+}
+
+.recent h1 {
+	margin-top: 80px;
+	font-size: 38px;
+    font-weight: 400;
+}
+.barisrecent {
+	width: 1400px;
+	height: 400px;
+	margin: auto;
+	margin-top: 70px;
+}
+
+.barisrecent h3 {
+	width: 300px;
+	text-align: left;
+	margin-top: 10px;
+	font-size: 22px;
+    font-weight: 400;
+}
+
+.barisrecent p {
+	text-align: left;
+	margin-top: 10px;
+}
+
+.kotak1 {
+	float: left;
+	margin-right: 30px;
+	margin-left: 130px;
+}
+
+.kotak1:hover h3{
+	color: yellow;
+}
+
+
+.kotak2 {
+	float: left;
+	margin-right: 30px;
+}
+
+.kotak2:hover h3{
+	color: yellow;
+}
+
+.kotak3 {
+	float: left;
+	margin-right: 30px;
+}
+
+.kotak3:hover h3{
+	color: yellow;
+}
+
+.barisrecent p {
+	color: grey;
+}
+
+.footertop {
+	background: #176152;
+	height: 400px;
+	color: white;
+	margin: auto;
+	padding: 40px;
+	
+}
+
+.barisfoot {
+	height: 300px;
+	width: 1250px;
+	margin: auto;
+	margin-top: 100px;
+}
+
+.kiri1 {
+	width: 350px;
+	height: 270px;
+	float: left;
+	margin-left: 50px;
+	color: black;
+	margin-top: -25px;
+	
+}
+
+.kiri1 img {
+	width: 80px;
+	float: left;
+}
+
+.buatkiri {
+	width: 350px;
+	height: 100px;
+	margin-top: -5px;
+}
+
+.buatkiri h3 {
+	float: left;
+	text-align: left;
+	margin: 30px 0 0 10px;
+	color: white;
+}
+
+.kiri1 p {
+	text-align: left;
+	line-height: 30px;
+	margin-left: 15px;
+	color: white;
+}
+
+.kiri1 p a {
+	color: white;
+	text-decoration:none;
+}
+
+.sosmed {
+	width: 250px;
+	margin-left: 15px;
+	margin-top: 50px;
+}
+
+.sosmed .fa-facebook {
+	float: left;
+	color: yellow;
+}
+
+.sosmed .fa-twitter {
+	float: left;
+	margin-left: 15px;
+	color: yellow;
+}
+
+.sosmed .fa-instagram {
+	float: left;
+	margin-left: 15px;
+	color: yellow;
+}
+
+.sosmed .fa-pinterest {
+	float: left;
+	margin-left: 15px;
+	color: yellow;
+}
+
+.sosmed .fa-youtube {
+	float: left;
+	margin-left: 15px;
+	color: yellow;
+}
+
+.sosmed .fa-facebook:hover {
+	color: white;
+}
+
+.sosmed .fa-twitter:hover{
+	color: white;
+}
+
+.sosmed .fa-instagram:hover {
+	color: white;
+}
+
+.sosmed .fa-pinterest:hover {
+	color: white;
+}
+
+.sosmed .fa-youtube:hover {
+	color: white
+}
+
+.kiri2 {
+	width: 160px;
+	height: 212px;
+
+	float: left;
+	margin-left: 20px;
+	text-align: left;
+}
+
+.kiri2 h3{
+	margin-bottom: 40px;
+}
+
+.kiri2 ul li {
+	list-style: none;
+	line-height: 36px;
+}
+
+.kiri2 ul li a {
+	color: white;
+	text-decoration:none;
+}
+
+.kiri1 p a:hover{
+	color: yellow;
+}
+
+.kiri2 ul li a:hover{
+	color: yellow;
+}
+
+.tengah {
+	width: 285px;
+	height: 271px;
+	float: left;
+	margin-left: 70px;
+}
+
+.tengah h3 {
+	text-align: left;
+	margin-bottom: 40px;
+}
+
+.tengah ul li {
+	width: 50%;
+    float: left;
+	list-style: none;
+	text-align: left;
+	line-height: 36px;
+}
+
+.tengah ul li a{
+	color: white;
+	text-decoration:none;
+}
+
+.tengah ul li a:hover{
+	color: yellow;
+}
+
+
+.kanan {
+	width: 285px;
+	height: 271px;
+	float: left;
+	margin-left: 10px;
+}
+
+.kanan h3 {
+	text-align: left;
+	margin-bottom: 40px;
+	margin-left: 25px;
+}
+
+.bordertop {
+	border-top: 1px solid yellow;
+    padding-bottom: 26px;
+	width: 50%;
+	margin: auto;
+}
+
+.footerbottom {
+	background-color: #176152;
+	height: 80px;
+	color: white;
+}
+

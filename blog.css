@@ -1,0 +1,739 @@
+* {padding: 0; margin: 0}
+html {
+	font-family: "Rubik",sans-serif;
+}
+
+nav {
+	width: 100%;
+	z-index: 1; 
+	background-color: white;
+	display: flex;
+	position: fixed;
+	height: 90px;
+	box-shadow: 5px 5px 5px lightgrey;
+}
+
+nav .logo img {height: 90px; padding-right: 17px; margin-left: 15px; border-right: solid darkgreen 2px}
+
+.arrowdown1 {
+  border: solid #176152;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  position: absolute;
+  margin: 3px 0 0 -15px;
+}
+
+.arrowdown2 {
+  border: solid #176152;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  position: absolute;
+  margin: 3px 0 0 -15px;
+}
+
+nav ul { margin-left: 20px; margin-top: 20px; text-align: left;}
+nav ul li { float: left; list-style: none; background: white; padding: 15px 15px;}
+nav ul li a {margin-right: 25px; text-decoration: none; }
+nav ul li ul{display: none; margin: 15px 0 0 -15px}
+nav ul li img {width: 10px}
+nav ul li:hover  > ul {display: block;}
+nav ul li ul {position: absolute;}
+nav ul li ul li {float: none; position: relative;}
+nav a {color: #176152;}
+nav a:hover {color: #E4FF00}
+nav ul li a:hover .arrowdown1 {border-color: yellow}
+nav ul li a:hover .arrowdown2 {border-color: yellow}
+nav ul li ul li ul {left: 100%; top: 0%; width: 250px;}
+
+.navkanan {
+	width: 400px;
+	position: absolute;
+	right: 5%;
+}
+.telppng img {
+	width: 20px; 
+	margin-top:35px; 
+	float: left;
+}
+
+body {
+	background-color: whitesmoke;
+	position: relative;
+	margin: auto;
+}
+
+nav p {
+	color: #176152; 
+	margin-top: 35px; 
+	margin-left: 3px;
+	margin-right: 30px;
+	float: left;
+}
+
+.contacts .fa-instagram {
+	float: left;
+	margin-top: 35px; 
+	margin-left: 20px;
+	color: #176152;
+}
+
+.contacts .fa-instagram:hover {
+	color: yellow;
+}
+
+.contacts .fa-linkedin {
+	float: left;
+	margin-top: 35px; 
+	margin-left: 20px;
+	color: #176152;
+}
+
+.contacts .fa-linkedin:hover {
+	color: yellow;
+}
+
+.contacts .fa-facebook {
+	float: left;
+	margin-top: 35px; 
+	margin-left: 20px;
+	color: #176152;
+}
+
+.contacts .fa-facebook:hover {
+	color: yellow;
+}
+
+.contacts .fa-google-plus-g {
+	float: left;
+	margin-top: 35px; 
+	margin-left: 20px;
+	color: #176152;
+}
+
+.contacts .fa-google-plus-g:hover {
+	color: yellow;
+}
+.search {
+	color:#176152 ;
+	position: absolute;
+	left: 94%;
+	background-color: yellow;
+	padding: 36px;
+
+}
+
+body{
+    position: relative;
+}
+
+.biarturun {
+    color: white;
+}
+
+.fotojudulblog {
+	background: lightgrey;
+	height: 470px;
+	position: relative;
+	margin: auto;
+}
+
+.fotojudulblog img {
+	width: 100%;
+	height: 470px;
+	object-fit: cover;
+}
+
+.teksjudulblog {
+    background-color: #176152;
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    margin-top: -350px;
+}
+
+.teksjudulblog h1 {
+    font-family: 'Brush Script MT', cursive; font-weight: normal; cursor: default;
+	font-size: 90pt;
+    color: white;
+    text-align: center;
+}
+
+.teksjudulblog p {
+    text-align: center;
+    color: white;
+}
+
+.containerblog {
+    width: 1347px;
+    height: 3418px;
+    margin:auto;
+    margin-top: 100px;
+
+}
+
+.blogkiri {
+    float: left;
+    width: 760px;
+    margin-left: 100px;
+
+}
+
+.blogkanan {
+    width: 380px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+    position: relative;
+}
+
+
+
+.blogfeeds {
+    position: relative;
+    width: 750px;
+    height: 600px;
+    background-color: white;
+    margin-top: 50px;
+}
+
+.blogdate {
+    width: 35px;
+    padding: 13px 30px;
+    background-color: #176152;
+    position: absolute;
+    bottom: 200px;
+    left: 40px;
+    border-radius: 5px;
+    color: white;
+}
+
+.blogdate:hover {
+    background-color:transparent ;
+	color: yellow;
+}
+
+.blogdate h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+.blogdate p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.blogdetails {
+    width: 660px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.titlefeeds:hover {
+    color: yellow;
+}
+
+.blogdetails .titlefeeds {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.blogdetails .descfeeds {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #7a838b;
+    font-family: "Rubik",sans-serif;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.linkfeeds a {
+    color: #666;
+    text-decoration: none;
+    list-style: none;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+.linkfeeds li {
+    list-style: none;
+    float: left;
+}
+
+.linkfeeds .komen {
+    margin-left: 10px;
+}
+
+.searchkey {
+    width: 350px;
+    height: 170px;
+    background: #fbf9ff;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+
+.searchkey .searchbox {
+    height: 50px;
+    border-color: #f0e9ff;
+    font-size: 13px;
+    color: #999;
+    padding-left: 20px;
+    border-right: 0;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    margin: 30px 0 0 55px;
+}
+
+.searchkey .fa-magnifying-glass {
+    background-color: white;
+    padding: 17px;
+    margin-left: -4px;
+    border: 1px solid #ced4da;
+}
+
+.searchkey .search {
+    width: 233px;
+    float: left;
+    background: #1ec6b6;
+    color: #fff;
+    padding: 14px 44px;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid #1ec6b6;
+    text-align: center;
+    cursor: pointer;
+    margin-left: -273px;
+    margin-top: 10px;
+}
+
+.search:hover{
+    background-color:yellow ;
+	color: #176152;
+    transition: 0.3s;
+}
+
+.category {
+    width: 350px;
+    height: 420px;
+    background: #fbf9ff;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.category h4{
+    font-size: 20px;
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.listcategory {
+    margin-top: 50px;
+}
+
+.listcategory li {
+    list-style: none;
+    margin-bottom: 30px;
+    border-bottom: 1px solid lightgrey;
+    
+}
+.listcategory a{
+    text-decoration: none;
+    color: grey;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.listcategory a:hover {
+	color: yellow;
+    transition: 0.3s;
+}
+
+.recentpost {
+    width: 350px;
+    height: 440px;
+    background: #fbf9ff;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.recentpost h4{
+    font-size: 20px;
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.recentpost h3:hover{
+    color: yellow;
+}
+
+.recentpost .post {
+    width: 340px;
+    height: 80px;
+    margin-top: 20px;
+}
+
+.post img {
+    float: left;
+}
+.post a{
+    text-decoration: none;
+}
+
+.post h3 {
+    color: black;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 6px;
+    transition: all .3s linear;
+}
+
+.post p {
+    font-size: 14px;
+    line-height: 21px;
+    color: grey;
+}
+
+.captionpost {
+    float: left;
+    margin-top: 15px;
+    margin-left:15px;
+}
+
+.tagclouds {
+    width: 350px;
+    height: 170px;
+    background: #fbf9ff;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.tagclouds h4{
+    font-size: 20px;
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.tagclouds .clouds {
+    margin-top: 35px;
+}
+.tagclouds .clouds li {
+    list-style: none;
+}
+
+.tagclouds .clouds a{
+    display: inline-block;
+    border: 1px solid #eee;
+    text-decoration: none;
+    background: #fff;
+    padding: 4px 20px;
+    margin-bottom: 8px;
+    margin-right: 3px;
+    transition: all .3s ease 0s;
+    color: #888;
+    font-size: 13px;
+    float: left;
+}
+
+.tagclouds .clouds a:hover{
+    background-color:yellow ;
+	color: #176152;
+}
+
+
+.instagramfeeds {
+    width: 350px;
+    height: 300px;
+    background: #fbf9ff;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.instagramfeeds h4{
+    font-size: 20px;
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.instagramfeeds .blogigfeeds {
+    margin-top: 40px;
+}
+
+.instagramfeeds .blogigfeeds img {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.blognews {
+    width: 350px;
+    height: 250px;
+    background: #fbf9ff;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.blognews h4 {
+    font-size: 20px;
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.blognews .groupformnews{
+    margin-top: 40px;
+  
+}
+.blognews .groupformnews input {
+    height: 50px;
+    border-style: none;
+    border: 1px solid lightgrey;
+    font-size: 13px;
+    color: #999;
+    padding-left: 20px;
+    display: block;
+    width: 300px;
+}
+
+.blognews .groupformnews button{
+    background:#176152;
+    color: #fff;
+    padding: 14px 44px;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    width: 325px;
+}
+
+.groupformnews button:hover{
+    background-color:yellow ;
+	color: #176152;
+    transition: 0.3s;
+}
+
+
+.linkfeeds .travel:hover  a{
+    color: yellow;
+}
+
+.linkfeeds .komen:hover a{
+    color: yellow;
+}
+
+
+
+
+
+
+
+
+.footertop {
+	background: #176152;
+	height: 400px;
+	color: white;
+	margin: auto;
+	padding: 40px;
+	
+}
+
+.barisfoot {
+	height: 300px;
+	width: 1250px;
+	margin: auto;
+	margin-top: 100px;
+}
+
+.kiri1 {
+	width: 350px;
+	height: 270px;
+	float: left;
+	margin-left: 50px;
+	color: black;
+	margin-top: -25px;
+	
+}
+
+.kiri1 img {
+	width: 80px;
+	float: left;
+}
+
+.buatkiri {
+	width: 350px;
+	height: 100px;
+	margin-top: -5px;
+}
+
+.buatkiri h3 {
+	float: left;
+	text-align: left;
+	margin: 30px 0 0 10px;
+	color: white;
+}
+
+.kiri1 p {
+	text-align: left;
+	line-height: 30px;
+	margin-left: 15px;
+	color: white;
+}
+
+.kiri1 p a {
+	color: white;
+	text-decoration:none;
+}
+
+.sosmed {
+	width: 250px;
+	margin-left: 15px;
+	margin-top: 50px;
+}
+
+.sosmed .fa-facebook {
+	float: left;
+	color: yellow;
+}
+
+.sosmed .fa-twitter {
+	float: left;
+	margin-left: 15px;
+	color: yellow;
+}
+
+.sosmed .fa-instagram {
+	float: left;
+	margin-left: 15px;
+	color: yellow;
+}
+
+.sosmed .fa-pinterest {
+	float: left;
+	margin-left: 15px;
+	color: yellow;
+}
+
+.sosmed .fa-youtube {
+	float: left;
+	margin-left: 15px;
+	color: yellow;
+}
+
+.sosmed .fa-facebook:hover {
+	color: white;
+}
+
+.sosmed .fa-twitter:hover{
+	color: white;
+}
+
+.sosmed .fa-instagram:hover {
+	color: white;
+}
+
+.sosmed .fa-pinterest:hover {
+	color: white;
+}
+
+.sosmed .fa-youtube:hover {
+	color: white
+}
+
+.kiri2 {
+	width: 160px;
+	height: 212px;
+
+	float: left;
+	margin-left: 20px;
+	text-align: left;
+}
+
+.kiri2 h3{
+	margin-bottom: 40px;
+}
+
+.kiri2 ul li {
+	list-style: none;
+	line-height: 36px;
+}
+
+.kiri2 ul li a {
+	color: white;
+	text-decoration:none;
+}
+
+.kiri1 p a:hover{
+	color: yellow;
+}
+
+.kiri2 ul li a:hover{
+	color: yellow;
+}
+
+.tengah {
+	width: 285px;
+	height: 271px;
+	float: left;
+	margin-left: 70px;
+}
+
+.tengah h3 {
+	text-align: left;
+	margin-bottom: 40px;
+}
+
+.tengah ul li {
+	width: 50%;
+    float: left;
+	list-style: none;
+	text-align: left;
+	line-height: 36px;
+}
+
+.tengah ul li a{
+	color: white;
+	text-decoration:none;
+}
+
+.tengah ul li a:hover{
+	color: yellow;
+}
+
+
+.kanan {
+	width: 285px;
+	height: 271px;
+	float: left;
+	margin-left: 10px;
+}
+
+.kanan h3 {
+	text-align: left;
+	margin-bottom: 40px;
+	margin-left: 25px;
+}
+
+.bordertop {
+	border-top: 1px solid yellow;
+    padding-bottom: 26px;
+	width: 50%;
+	margin: auto;
+}
+
+.footerbottom {
+	background-color: #176152;
+	height: 80px;
+	color: white;
+}
+
+.copyright {
+    text-align: center;
+}
+
